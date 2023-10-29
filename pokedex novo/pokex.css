@@ -1,19 +1,391 @@
-body{
-margin: 0;
+body {
+    margin: 0;
 
 
 
 }
 
-#imagem{    
+#imagem {
     backdrop-filter: inherit;
-    background: url(https://i.pinimg.com/originals/93/98/94/9398944b931f51d4ab0a8e92f44ca452.jpg);
+    background: url(https://images5.alphacoders.com/380/380868.jpg);
     background-attachment: fixed;
     background-size: auto;
-    }
+}
 
 
-.fundo{
+.fundo {
     border-style: none;
     background-color: rgba(255, 255, 255, 0);
+}
+
+.gv {
+    background-image: linear-gradient(to bottom right, #5dbf68, #b567ce);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.fogo {
+    background-image: linear-gradient(to bottom right, #ff9841, #ff9841);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.fv {
+    background-image: linear-gradient(to bottom right, #ff9841, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.fd {
+    background-image: linear-gradient(to bottom right, #ff9841, #0b6dc3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.agua {
+    background-image: linear-gradient(to bottom right, #5090d6, #5090d6);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.inseto {
+    background-image: linear-gradient(to bottom right, #91c12f, #91c12f);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.iv {
+    background-image: linear-gradient(to bottom right, #91c12f, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.inv {
+    background-image: linear-gradient(to bottom right, #91c12f, #b567ce);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.nv {
+    background-image: linear-gradient(to bottom right, #919aa2, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.normal {
+    background-image: linear-gradient(to bottom right, #919aa2, #919aa2);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.sn {
+    background-image: linear-gradient(to bottom right, #5a5465, #919aa2);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.veneno {
+    background-image: linear-gradient(to bottom right, #b567ce, #b567ce);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.eletrico {
+    background-image: linear-gradient(to bottom right, #f4d23c, #f4d23c);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.ep {
+    background-image: linear-gradient(to bottom right, #f4d23c, #fa7179);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.terra {
+    background-image: linear-gradient(to bottom right, #d97845, #d97845);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.gm {
+    background-image: linear-gradient(to bottom right, #73cec0, #5a8ea2);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.vt {
+    background-image: linear-gradient(to bottom right, #b567ce, #d97845);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.fada {
+    background-image: linear-gradient(to bottom right, #ec8fe6, #ec8fe6);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.gelo {
+    background-image: linear-gradient(to bottom right, #73cec0, #73cec0);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.gf {
+    background-image: linear-gradient(to bottom right, #73cec0, #ec8fe6);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.nf {
+    background-image: linear-gradient(to bottom right, #919aa2, #ec8fe6);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.vv {
+    background-image: linear-gradient(to bottom right, #b567ce, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.ig {
+    background-image: linear-gradient(to bottom right, #91c12f, #5dbf68);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.tm {
+    background-image: linear-gradient(to bottom right, #d97845, #5a8ea2);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.sombrio {
+    background-image: linear-gradient(to bottom right, #5a5465, #5a5465);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.metal {
+    background-image: linear-gradient(to bottom right, #5a8ea2, #5a8ea2);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.lutador {
+    background-image: linear-gradient(to bottom right, #ce416b, #ce416b);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.fp {
+    background-image: linear-gradient(to bottom right, #ff9841, #c5b78c);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.al {
+    background-image: linear-gradient(to bottom right, #5090d6, #ce416b);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.psiquico {
+    background-image: linear-gradient(to bottom right, #fa7179, #fa7179);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.av {
+    background-image: linear-gradient(to bottom right, #5090d6, #b567ce);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.pt {
+    background-image: linear-gradient(to bottom right, #c5b78c, #d97845);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.pe {
+    background-image: linear-gradient(to bottom right, #c5b78c, #f4d23c);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.pf {
+    background-image: linear-gradient(to bottom right, #fa7179, #ec8fe6);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.ap {
+    background-image: linear-gradient(to bottom right, #5090d6, #fa7179);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.vp {
+    background-image: linear-gradient(to bottom right, #b567ce, #fa7179);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.em {
+    background-image: linear-gradient(to bottom right, #f4d23c, #5a8ea2);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.ag {
+    background-image: linear-gradient(to bottom right, #5090d6, #73cec0);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.vs {
+    background-image: linear-gradient(to bottom right, #b567ce, #5a5465);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.fav {
+    background-image: linear-gradient(to bottom right, #5269ad, #b567ce);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.eg {
+    background-image: linear-gradient(to bottom right, #f4d23c, #5dbf68);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.gp {
+    background-image: linear-gradient(to bottom right, #5dbf68, #fa7179);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.gd {
+    background-image: linear-gradient(to bottom right, #5dbf68, #0b6dc3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.ff {
+    background-image: linear-gradient(to bottom right, #ff9841, #5269ad);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.vf {
+    background-image: linear-gradient(to bottom right, #b567ce, #ec8fe6);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.tp {
+    background-image: linear-gradient(to bottom right, #d97845, #c5b78c);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.grama {
+    background-image: linear-gradient(to bottom right, #5dbf68, #5dbf68);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.gep {
+    background-image: linear-gradient(to bottom right, #73cec0, #fa7179);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.lf {
+    background-image: linear-gradient(to bottom right, #ce416b, #ff9841);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.la {
+    background-image: linear-gradient(to bottom right, #ce416b, #5090d6);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.agv {
+    background-image: linear-gradient(to bottom right, #5090d6, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.as {
+    background-image: linear-gradient(to bottom right, #5090d6, #5a5465);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.pa {
+    background-image: linear-gradient(to bottom right, #c5b78c, #5090d6);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.pv {
+    background-image: linear-gradient(to bottom right, #c5b78c, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.gev {
+    background-image: linear-gradient(to bottom right, #73cec0, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.psv {
+    background-image: linear-gradient(to bottom right, #fa7179, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.ev {
+    background-image: linear-gradient(to bottom right, #f4d23c, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.lv {
+    background-image: linear-gradient(to bottom right, #ce416b, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.sv {
+    background-image: linear-gradient(to bottom right, #5a5465, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.dragao {
+    background-image: linear-gradient(to bottom right, #0b6dc3, #0b6dc3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.dv {
+    background-image: linear-gradient(to bottom right, #0b6dc3, #89aae3);
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.pl {
+    background-image: linear-gradient(to bottom right, #fa7179, #ce416b);
+    border: 5px solid silver;
+    margin: 10px;
 }
