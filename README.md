@@ -1,8 +1,3 @@
-Trabalho continuará recebendo atualizações mesmo após o fim do evento.
+NationalDex é um projeto encabeçado por Daniking1.
 
-
-Trabalho inicialmente feito para o Mundo Senai de 2022
-
-Participantes: Daniel Martins Vieira, Eduardo Marcelino, Gabriel Nascimento, Kauã Abreu, Nikolas Nascimento e Victor Hugo
-
-Curso: Técnico em Desenvolvimento de Sistemas - T DESI 2022/2 N1 - 1375946
+Nesse projeto irei fazer uma pokédex com todos os pokémon e todos os detalhes dos jogos.
