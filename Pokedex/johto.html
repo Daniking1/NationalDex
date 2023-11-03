@@ -1,0 +1,1874 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <title>NationalDex</title>
+    <link rel="stylesheet" href="../pokedex novo/pokex.css">
+</head>
+<center>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Pokedex/superPokedex.html">Página Inicial</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pokédex
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../Pokedex/kanto.html">1ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/johto.html">2ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/hoenn.html">3ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/sinnoh.html">4ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/unova.html">5ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/kalos.html">6ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/alola.html">7ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/galar.html">8ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/paldea.html">9ª Geração</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+
+    <body>
+        <div id="imagem">
+            <h1><img src="pokemon.png"></h1>
+            <!-- Button trigger modal -->
+            <div id="pokemons" onclick="tocar()">
+
+                <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Chikorita">
+                    <img width="140" weight="140" src="152.png" alt="" class="grama">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Chikorita" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Chikorita</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="152 - Chikorita .png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Bayleef">
+                    <img width="140" weight="140" src="153.png" alt="" class="grama">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Bayleef" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Bayleef</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="153 - Bayleef.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Meganium">
+                    <img width="140" weight="140" src="154.png" alt="" class="grama">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Meganium" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Meganium</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="154 - Meganium.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Cyndaquil">
+                    <img width="140" weight="140" src="155.png" alt="" class="fogo">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Cyndaquil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Cyndaquil</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="155 - Cyndaquil.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Quilava">
+                    <img width="140" weight="140" src="156.png" alt="" class="fogo">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Quilava" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Quilava</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="156 - Quilava.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Typhlosion">
+                    <img width="140" weight="140" src="157.png" alt="" class="fogo">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Typhlosion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Typhlosion</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="157 - Typhlosion.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Totodile">
+                    <img width="140" weight="140" src="158.png" alt="" class="agua">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Totodile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Totodile</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="158 - Totodile.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Croconaw">
+                    <img width="140" weight="140" src="159.png" alt="" class="agua">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Croconaw" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Croconaw</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="159 - Croconaw.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Feraligatr">
+                    <img width="140" weight="140" src="160.png" alt="" class="agua">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Feraligatr" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Feraligatr</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="160 - Feraligatr.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Sentret">
+                    <img width="140" weight="140" src="161.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Sentret" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Sentret</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="161 - Sentret.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Furret">
+                    <img width="140" weight="140" src="162.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Furret" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Furret</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="162 - Furret.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Hoothoot">
+                    <img width="140" weight="140" src="163.png" alt="" class="nv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Hoothoot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Hoothoot</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="163 - Hoothoot.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Noctowl">
+                    <img width="140" weight="140" src="164.png" alt="" class="nv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Noctowl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Noctowl</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="164 - Noctowl.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Ledyba">
+                    <img width="140" weight="140" src="165.png" alt="" class="iv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Ledyba" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ledyba</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="165 - Ledyba.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Ledian">
+                    <img width="140" weight="140" src="166.png" alt="" class="iv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Ledian" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ledian</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="166 - Ledian.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Spinarak">
+                    <img width="140" weight="140" src="167.png" alt="" class="inv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Spinarak" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Spinarak</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="167 - Spinarak.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Ariados">
+                    <img width="140" weight="140" src="168.png" alt="" class="inv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Ariados" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ariados</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="168 - Ariados.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Crobat">
+                    <img width="140" weight="140" src="169.png" alt="" class="vv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Crobat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Crobat</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="169 - Crobat.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Chinchou">
+                    <img width="140" weight="140" src="170.png" alt="" class="ae">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Chinchou" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Chinchou</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="170 - Chinchou.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Lanturn">
+                    <img width="140" weight="140" src="171.png" alt="" class="ae">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Lanturn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Lanturn</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="171 - Lanturn.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Pichu">
+                    <img width="140" weight="140" src="172.png" alt="" class="eletrico">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Pichu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Pichu</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="172 - Pichu.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Cleffa">
+                    <img width="140" weight="140" src="173.png" alt="" class="fada">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Cleffa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Cleffa</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="173 - Cleffa.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Igglybuff">
+                    <img width="140" weight="140" src="174.png" alt="" class="nf">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Igglybuff" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Igglybuff</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="174 - Igglybuff.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Togepi">
+                    <img width="140" weight="140" src="175.png" alt="" class="fada">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Togepi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Togepi</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="175 - Togepi.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Togetic">
+                    <img width="140" weight="140" src="176.png" alt="" class="favo">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Togetic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Togetic</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="176 - Togetic.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Natu">
+                    <img width="140" weight="140" src="177.png" alt="" class="psv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Natu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Natu</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="177 - Natu.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Xatu">
+                    <img width="140" weight="140" src="178.png" alt="" class="psv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Xatu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Xatu</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="178 - Xatu.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Mareep">
+                    <img width="140" weight="140" src="179.png" alt="" class="eletrico">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Mareep" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mareep</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="179 - Mareep.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Flaaffy">
+                    <img width="140" weight="140" src="180.png" alt="" class="eletrico">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Flaaffy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Flaaffy</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="180 - Flaaffy.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Ampharos">
+                    <img width="140" weight="140" src="181.png" alt="" class="eletrico">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Ampharos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ampharos</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="181 - Ampharos.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Bellossom">
+                    <img width="140" weight="140" src="182.png" alt="" class="grama">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Bellossom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Bellossom</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="182 - Bellossom.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Marill">
+                    <img width="140" weight="140" src="183.png" alt="" class="af">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Marill" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Marill</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="183 - Marill.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Azumarill">
+                    <img width="140" weight="140" src="184.png" alt="" class="af">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Azumarill" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Azumarill</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="184 - Azumarill.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Sudowoodo">
+                    <img width="140" weight="140" src="185.png" alt="" class="pedra">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Sudowoodo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Sudowoodo</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="185 - Sudowoodo.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Politoed">
+                    <img width="140" weight="140" src="186.png" alt="" class="agua">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Politoed" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Politoed</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="186 - Politoed.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Hoppip">
+                    <img width="140" weight="140" src="187.png" alt="" class="grv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Hoppip" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Hoppip</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="187 - Hoppip.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Skiploom">
+                    <img width="140" weight="140" src="188.png" alt="" class="grv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Skiploom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Skiploom</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="188 - Skiploom.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Jumpluff">
+                    <img width="140" weight="140" src="189.png" alt="" class="grv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Jumpluff" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Jumpluff</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="189 - Jumpluff.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Aipom">
+                    <img width="140" weight="140" src="190.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Aipom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Aipom</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="190 - Aipom.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Sunkern">
+                    <img width="140" weight="140" src="191.png" alt="" class="grama">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Sunkern" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Sunkern</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="191 - Sunkern.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Sunflora">
+                    <img width="140" weight="140" src="192.png" alt="" class="grama">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Sunflora" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Sunflora</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="192 - Sunflora.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Yanma">
+                    <img width="140" weight="140" src="193.png" alt="" class="iv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Yanma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Yanma</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="193 - Yanma.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Wooper">
+                    <img width="140" weight="140" src="194.png" alt="" class="at">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Wooper" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Wooper</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="194 - Wooper.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Quagsire">
+                    <img width="140" weight="140" src="195.png" alt="" class="at">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Quagsire" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Quagsire</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="195 - Quagsire.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Espeon">
+                    <img width="140" weight="140" src="196.png" alt="" class="psiquico">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Espeon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Espeon</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="196 - Espeon.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Umbreon">
+                    <img width="140" weight="140" src="197.png" alt="" class="sombrio">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Umbreon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Umbreon</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="197 - Umbreon.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Murkrow">
+                    <img width="140" weight="140" src="198.png" alt="" class="sv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Murkrow" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Murkrow</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="198 - Murkrow.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Slowking">
+                    <img width="140" weight="140" src="199.png" alt="" class="ap">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Slowking" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Slowking</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="199 - Slowking.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Misdreavus">
+                    <img width="140" weight="140" src="200.png" alt="" class="fantasma">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Misdreavus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Misdreavus</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="200 - Misdreavus.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Unown">
+                    <img width="140" weight="140" src="201.png" alt="" class="psiquico">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Unown" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Unown</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="201 - Unown.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Wobbuffet">
+                    <img width="140" weight="140" src="202.png" alt="" class="psiquico">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Wobbuffet" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Wobbuffet</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="202 - Wobbuffet.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Girafarig">
+                    <img width="140" weight="140" src="203.png" alt="" class="np">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Girafarig" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Girafarig</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="203 - Girafarig.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Pineco">
+                    <img width="140" weight="140" src="204.png" alt="" class="inseto">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Pineco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Pineco</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="204 - Pineco.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Forretress">
+                    <img width="140" weight="140" src="205.png" alt="" class="im">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Forretress" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Forretress</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="205 - Forretress.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Dunsparce">
+                    <img width="140" weight="140" src="206.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Dunsparce" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Dunsparce</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="206 - Dunsparce.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Gligar">
+                    <img width="140" weight="140" src="207.png" alt="" class="tv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Gligar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Gligar</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="207 - Gligar.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Steelix">
+                    <img width="140" weight="140" src="208.png" alt="" class="mt">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Steelix" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Steelix</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="208 - Steelix.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Snubbull">
+                    <img width="140" weight="140" src="209.png" alt="" class="fada">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Snubbull" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Snubbull</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="209 - Snubbull.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Granbull">
+                    <img width="140" weight="140" src="210.png" alt="" class="fada">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Granbull" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Granbull</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="210 - Granbull.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Qwilfish">
+                    <img width="140" weight="140" src="211.png" alt="" class="av">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Qwilfish" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Qwilfish</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="211 - Qwilfish.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Scizor">
+                    <img width="140" weight="140" src="212.png" alt="" class="im">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Scizor" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Scizor</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="212 - Scizor.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Shuckle">
+                    <img width="140" weight="140" src="213.png" alt="" class="ip">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Shuckle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Shuckle</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="213 -  Shuckle.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Heracross">
+                    <img width="140" weight="140" src="214.png" alt="" class="il">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Heracross" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Heracross</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="214 - Heracross.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Sneasel">
+                    <img width="140" weight="140" src="215.png" alt="" class="sg">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Sneasel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Sneasel</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="215 -  Sneasel.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Teddiursa">
+                    <img width="140" weight="140" src="216.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Teddiursa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Teddiursa</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="216 -  Teddiursa.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Ursaring">
+                    <img width="140" weight="140" src="217.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Ursaring" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ursaring</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="217 -  Ursaring.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Slugma">
+                    <img width="140" weight="140" src="218.png" alt="" class="fogo">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Slugma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Slugma</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="218 -  Slugma.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Magcargo">
+                    <img width="140" weight="140" src="219.png" alt="" class="fp">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Magcargo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Magcargo</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="219 -  Magcargo.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Swinub">
+                    <img width="140" weight="140" src="220.png" alt="" class="gt">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Swinub" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Swinub</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="220 -  Swinub.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Piloswine">
+                    <img width="140" weight="140" src="221.png" alt="" class="gt">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Piloswine" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Piloswine</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="221 -  Piloswine.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Corsola">
+                    <img width="140" weight="140" src="222.png" alt="" class="agp">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Corsola" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Corsola</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="222 -  Corsola.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Remoraid">
+                    <img width="140" weight="140" src="223.png" alt="" class="agua">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Remoraid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Remoraid</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="223 -  Remoraid.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Octillery">
+                    <img width="140" weight="140" src="224.png" alt="" class="agua">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Octillery" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Octillery</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="224 -  Octillery.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Delibird">
+                    <img width="140" weight="140" src="225.png" alt="" class="gev">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Delibird" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Delibird</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="225 -  Delibird.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Mantine">
+                    <img width="140" weight="140" src="226.png" alt="" class="agv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Mantine" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mantine</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="226 -  Mantine.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Skarmory">
+                    <img width="140" weight="140" src="227.png" alt="" class="mv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Skarmory" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Skarmory</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="227 -  Skarmory.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Houndour">
+                    <img width="140" weight="140" src="228.png" alt="" class="sf">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Houndour" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Houndour</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="228 -  Houndour.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Houndoom">
+                    <img width="140" weight="140" src="229.png" alt="" class="sf">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Houndoom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Houndoom</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="229 -  Houndoom.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Kingdra">
+                    <img width="140" weight="140" src="230.png" alt="" class="ad">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Kingdra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Kingdra</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="230 -  Kingdra.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Phanpy">
+                    <img width="140" weight="140" src="231.png" alt="" class="terra">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Phanpy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Phanpy</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="231 -  Phanpy.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Donphan">
+                    <img width="140" weight="140" src="232.png" alt="" class="terra">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Donphan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Donphan</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="232 -  Donphan.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Porygon2">
+                    <img width="140" weight="140" src="233.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Porygon2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Porygon2</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="233 -  Porygon2.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Stantler">
+                    <img width="140" weight="140" src="234.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Stantler" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Stantler</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="234 -  Stantler.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Smeargle">
+                    <img width="140" weight="140" src="235.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Smeargle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Smeargle</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="235 -  Smeargle.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Tyrogue">
+                    <img width="140" weight="140" src="236.png" alt="" class="lutador">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Tyrogue" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Tyrogue</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="236 -  Tyrogue.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Hitmontop">
+                    <img width="140" weight="140" src="237.png" alt="" class="lutador">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Hitmontop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Hitmontop</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="237 -  Hitmontop.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Smoochum">
+                    <img width="140" weight="140" src="238.png" alt="" class="gep">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Smoochum" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Smoochum</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="238 -  Smoochum.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Elekid">
+                    <img width="140" weight="140" src="239.png" alt="" class="eletrico">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Elekid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Elekid</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="239 -  Elekid.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Magby">
+                    <img width="140" weight="140" src="240.png" alt="" class="fogo">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Magby" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Magby</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="240 -  Magby.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Miltank">
+                    <img width="140" weight="140" src="241.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Miltank" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Miltank</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="241 -  Miltank.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Blissey">
+                    <img width="140" weight="140" src="242.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Blissey" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Blissey</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="242 -  Blissey.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Raikou">
+                    <img width="140" weight="140" src="243.png" alt="" class="eletrico">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Raikou" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Raikou</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="243 -  Raikou.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Entei">
+                    <img width="140" weight="140" src="244.png" alt="" class="fogo">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Entei" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Entei</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="244 -  Entei.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Suicune">
+                    <img width="140" weight="140" src="245.png" alt="" class="agua">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Suicune" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Suicune</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="245 -  Suicune.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Larvitar">
+                    <img width="140" weight="140" src="246.png" alt="" class="pt">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Larvitar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Larvitar</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="246 -  Larvitar.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Pupitar">
+                    <img width="140" weight="140" src="247.png" alt="" class="pt">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Pupitar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Pupitar</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="247 -  Pupitar.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Tyranitar">
+                    <img width="140" weight="140" src="248.png" alt="" class="ps">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Tyranitar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Tyranitar</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="248 -  Tyranitar.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Lugia">
+                    <img width="140" weight="140" src="249.png" alt="" class="psv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Lugia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Lugia</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="249 -  Lugia.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#HoOh">
+                    <img width="140" weight="140" src="250.png" alt="" class="fv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="HoOh" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ho-Oh</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="250 -  Ho-Oh.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#Celebi">
+                    <img width="140" weight="140" src="251.png" alt="" class="pg">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Celebi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Celebi</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="251 -  Celebi.png" alt="" width="543" weight="785" class="estilogsc">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div class="musi">
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+        <script src="../pokedex novo/pokedex.js"></script>
+    </body>
+</center>
+
+</html>

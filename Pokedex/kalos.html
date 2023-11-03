@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <title>NationalDex</title>
+    <link rel="stylesheet" href="../pokedex novo/pokex.css">
+</head>
+<center>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Pokedex/superPokedex.html">Página Inicial</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pokédex
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../Pokedex/kanto.html">1ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/johto.html">2ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/hoenn.html">3ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/sinnoh.html">4ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/unova.html">5ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/kalos.html">6ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/alola.html">7ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/galar.html">8ª Geração</a>
+                        <a class="dropdown-item" href="../Pokedex/paldea.html">9ª Geração</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+
+    <body>
+        <div id="imagem">
+            <h1><img src="pokemon.png"></h1>
+            <!-- Button trigger modal -->
+            <div id="pokemons" onclick="tocar()">
+
+                <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaVenusar">
+                    <img width="140" weight="140" src="003a.png" alt="" class="gv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaVenusar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Venusaur</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="003a - Mega Venusaur.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaCharizardX">
+                    <img width="140" weight="140" src="006a.png" alt="" class="fd">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaCharizardX" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Charizard X</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="006a - Mega Charizard X.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaCharizardY">
+                    <img width="140" weight="140" src="006b.png" alt="" class="fv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaCharizardY" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Charizard Y</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="006b - Mega Charizard Y.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaBlastoise">
+                    <img width="140" weight="140" src="009a.png" alt="" class="agua">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaBlastoise" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Blastoise</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="009a - Mega Blastoise.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaBeedrill">
+                    <img width="140" weight="140" src="015a.png" alt="" class="inv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaBeedrill" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Beedrill</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="015a - Mega Beedrill.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaPidgeot">
+                    <img width="140" weight="140" src="018a.png" alt="" class="nv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaPidgeot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Pidgeot</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="018a - Mega Pidgeot.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaAlakazam">
+                    <img width="140" weight="140" src="065a.png" alt="" class="psiquico">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaAlakazam" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Alakazam</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="065a - Mega Alakazam.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaSlowbro">
+                    <img width="140" weight="140" src="080a.png" alt="" class="ap">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaSlowbro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Slowbro</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="080a - Mega Slowbro.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaGengar">
+                    <img width="140" weight="140" src="094a.png" alt="" class="fav">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaGengar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Gengar</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="094a - Mega Gengar.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaKangaskhan">
+                    <img width="140" weight="140" src="115a.png" alt="" class="normal">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaKangaskhan" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Kangaskhan</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="115a - Mega Kangaskhan.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaPinsir">
+                    <img width="140" weight="140" src="127a.png" alt="" class="iv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaPinsir" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Pinsir</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="127a - Mega Pinsir.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaGyarados">
+                    <img width="140" weight="140" src="130a.png" alt="" class="as">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaGyarados" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Gyarados</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="130a - Mega Gyarados.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaAerodactyl">
+                    <img width="140" weight="140" src="142a.png" alt="" class="pv">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaAerodactyl" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Aerodactyl</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="142a - Mega Aerodactyl.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaMewtwoX">
+                    <img width="140" weight="140" src="150a.png" alt="" class="pl">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaMewtwoX" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Mewtwo X</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="150a - Mega Mewtwo X.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaMewtwoY">
+                    <img width="140" weight="140" src="150b.png" alt="" class="psiquico">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaMewtwoY" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Mewtwo Y</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="150b - Mega Mewtwo Y.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaAmpharos">
+                    <img width="140" weight="140" src="181a.png" alt="" class="ed">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaAmpharos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Ampharos</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="181a - Mega Ampharos.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaSteelix">
+                    <img width="140" weight="140" src="208a.png" alt="" class="mt">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaSteelix" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Steelix</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="208a - Mega Steelix.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaScizor">
+                    <img width="140" weight="140" src="212a.png" alt="" class="im">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaScizor" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Scizor</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="212a -  Mega Scizor.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaHeracross">
+                    <img width="140" weight="140" src="214a.png" alt="" class="il">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaHeracross" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Heracross</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="214a - Mega Heracross.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaHoundoom">
+                    <img width="140" weight="140" src="229a.png" alt="" class="sf">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaHoundoom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Houndoom</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="229a -  Mega Houndoom.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="fundo" data-bs-toggle="modal" data-bs-target="#MegaTyranitar">
+                    <img width="140" weight="140" src="248a.png" alt="" class="ps">
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="MegaTyranitar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mega Tyranitar</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="248a -  Mega Tyranitar.png" alt="" width="543" weight="785" class="estiloxy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div class="musi">
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+        <script src="../pokedex novo/pokedex.js"></script>
+    </body>
+</center>
+
+</html>
